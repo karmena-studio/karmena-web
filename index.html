@@ -152,9 +152,42 @@
           </section>
         </aside>
       </section>
+      <!-- Contacto (Formspree) -->
+      <section class="contact" aria-label="Formulario de contacto">
+        <h2 class="mini-title">¿Hablamos?</h2>
 
+        <form class="contact-form" action="https://formspree.io/f/xbdolqbj" method="POST">
+          <div class="field">
+            <label for="contact-email">Tu email</label>
+            <input
+              id="contact-email"
+              type="email"
+              name="email"
+              autocomplete="email"
+              inputmode="email"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label for="contact-message">Mensaje</label>
+            <textarea
+              id="contact-message"
+              name="message"
+              rows="5"
+              autocomplete="off"
+              required
+            ></textarea>
+          </div>
+
+          <!-- Honeypot anti-spam (no se ve) -->
+          <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </section>
       <footer class="foot">
-        <p>© 2026 karmena · <a href="mailto:hola@karmena.studio">hola@karmena.studio</a></p>
+        <p>© 2026 karmena</p>
       </footer>
     </div>
   </main>

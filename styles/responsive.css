@@ -87,6 +87,16 @@
   .foot {
     margin-top: .75rem; font-size: .9rem;
   }
+
+  .contact {
+    padding: .9rem;
+  }
+
+  .btn {
+    width: 100%;
+    justify-self: stretch;
+    text-align: center;
+  }
 }
 
 /* Pantallas + pequeñas */
