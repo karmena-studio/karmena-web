@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>karmena - Diseño Gráfico & Front-end</title>
+  <title>karmena - Diseño Digital & Front-end</title>
   <meta name="description" content="Carla Mendoza - Diseño gráfico + Front-End en formación. Enlaces a LinkedIn, Behance y GitHub." />
   <meta name="author" content="Carla Mendoza Antillano" />
   <link rel="canonical" href="https://karmena.com/" />
@@ -33,20 +33,20 @@
       <!-- Marca -->
       <header class="brand">
         <img src="assets/images/web-logo-carmena.svg" alt="karmena" class="brand-logo" />
-        <p class="brand-tag">diseño + front-end en formación</p>
+        <p class="brand-tag">del diseño al código</p>
       </header>
 
       <section class="layout">
         <!-- Columna izquierda -->
         <div class="intro">
           <h1 class="title">
-            diseño gráfico<br />
-            <span class="accent">&amp; front-end</span>
+            front-end<br />
+            <span class="accent">&amp; diseño digital</span>
           </h1>
 
           <p class="bio">
-            👋 Soy Carla, diseñadora con experiencia en branding/packaging y en transición hacia Front-End y UX.
-            Me gusta bajar ideas a pantallas claras: jerarquía visual, estructura y código limpio.
+            👋 Soy Carla. Trabajo en la intersección entre diseño y front-end, transformando ideas en interfaces
+            claras mediante jerarquía visual, estructura y código limpio.
           </p>
 
           <section class="now">
@@ -55,8 +55,7 @@
               en qué ando
             </h2>
             <p class="now-text">
-              Profundizando en Front-End de forma autodidacta,
-              reforzando bases antes de empezar el próximo semestre de Multimedia.
+              Profundizando en desarrollo Front-End: reforzando HTML, CSS y JavaScript, y dando mis primeros pasos con React a través de formación certificada y proyectos propios.
             </p>
           </section>
 
@@ -154,22 +153,23 @@
       </section>
       <!-- Contacto (Formspree) -->
       <section class="contact" aria-label="Formulario de contacto">
-        <h2 class="mini-title">¿Hablamos?</h2>
+        <h2 class="mini-title">Tu email y hablamos ☕️</h2>
 
         <form class="contact-form" action="https://formspree.io/f/xbdolqbj" method="POST">
           <div class="field">
-            <label for="contact-email">Tu email</label>
+            <label for="contact-email" class="sr-only">Tu email</label>
             <input
               id="contact-email"
               type="email"
               name="email"
+              placeholder="Tu email"
               autocomplete="email"
               inputmode="email"
               required
             />
           </div>
 
-          <div class="field">
+          <!-- <div class="field">
             <label for="contact-message">Mensaje</label>
             <textarea
               id="contact-message"
@@ -178,7 +178,7 @@
               autocomplete="off"
               required
             ></textarea>
-          </div>
+          </div> -->
 
           <!-- Honeypot anti-spam (no se ve) -->
           <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
